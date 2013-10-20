@@ -15,7 +15,7 @@
 -(void)setImageTintColor:(UIColor *)color
 {
     if (self.imageView.image)
-        [self.imageView setImage:[self tintedImageWithColor:color image:[self.imageView image]]];
+        [self setImage:[self tintedImageWithColor:color image:[self.imageView image]] forState:UIControlStateNormal];
     else
         NSLog(@"%@ UIButton does not have any image to tint.", self);
 }
