@@ -1,7 +1,7 @@
 UITintedButton
 ==============
 
-Evert wanted to tint a UIButton like you do with a UIBarButtonItem or a UINavigationItem? Here you go!
+Ever wanted to tint a UIButton like you do with a UIBarButtonItem or a UINavigationItem? Here you go!
 
 This category adds two instance methods and two class methods to UIButton:
 
