@@ -13,4 +13,5 @@ Pod::Spec.new do |s|
   s.author             = { "Filip Stefansson" => "filip.stefansson@gmail.com" }
   s.social_media_url   = "http://twitter.com/filipstefansson"
 
+  s.source_files  = 'UIButton+tintImage.*'
 end
