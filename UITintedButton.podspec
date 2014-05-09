@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/filipstefansson/UITintedButton"
   s.license      = 'APACHE'
-  s.author       = { "Filip Stefansson" => "email@address.com" }
+  s.author       = { "Filip Stefansson" => "filip.stefansson@gmail.com" }
 
   s.platform     = :ios, '5.0'
   s.source       = { :git => "https://github.com/filipstefansson/UITintedButton.git" }
