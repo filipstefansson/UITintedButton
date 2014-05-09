@@ -9,9 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface UIButton (tintImage)
--(void)setImageTintColor:(UIColor *)color;
+-(void)setImageTintColor:(UIColor *)color forState:(UIControlState)state;
 -(void)setBackgroundTintColor:(UIColor *)color forState:(UIControlState)state;
 
-+(void)tintButtonImages:(NSArray *)buttons withColor:(UIColor *)color;
++(void)tintButtonImages:(NSArray *)buttons withColor:(UIColor *)color forState:(UIControlState)state;
 +(void)tintButtonBackgrounds:(NSArray *)buttons withColor:(UIColor *)color forState:(UIControlState)state;
 @end

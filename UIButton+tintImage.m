@@ -12,19 +12,19 @@
 
 #pragma mark Image tint
 
--(void)setImageTintColor:(UIColor *)color
+-(void)setImageTintColor:(UIColor *)color forState:(UIControlState)state
 {
     if (self.imageView.image)
-        [self setImage:[self tintedImageWithColor:color image:[self.imageView image]] forState:UIControlStateNormal];
+        [self setImage:[self tintedImageWithColor:color image:[self.imageView image]] forState:state];
     else
         NSLog(@"%@ UIButton does not have any image to tint.", self);
 }
 
-+(void)tintButtonImages:(NSArray *)buttons withColor:(UIColor *)color
++(void)tintButtonImages:(NSArray *)buttons withColor:(UIColor *)color forState:(UIControlState)state
 {
     for (UIButton *button in buttons)
     {
-        [button setImageTintColor:color];
+        [button setImageTintColor:color forState:state];
     }
 }
 
