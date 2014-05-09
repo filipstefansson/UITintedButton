@@ -3,6 +3,8 @@ UITintedButton
 
 Ever wanted to tint a UIButton like you do with a UIBarButtonItem or a UINavigationItem? Here you go!
 
+![Screenshot](https://raw.githubusercontent.com/filipstefansson/UITintedButton/master/screenshot.png)
+
 This category adds two instance methods and two class methods to UIButton:
 
 	-(void)setImageTintColor:(UIColor *)color forState:(UIControlState)state;
