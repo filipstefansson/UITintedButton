@@ -15,6 +15,12 @@ This category adds two instance methods and two class methods to UIButton:
 
 ## Installation
 
+### CocoaPods
+
+``` pod 'UITintedButton' ```
+
+### Manual
+
 Drag ```UIButton+tintImage.h``` and ```UIButton+tintImage.m```.
 
 ## Usage
