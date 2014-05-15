@@ -15,12 +15,13 @@
 		DC12C8F2192407DB0015CE18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC12C8F1192407DB0015CE18 /* AppDelegate.m */; };
 		DC12C8F5192407DB0015CE18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC12C8F3192407DB0015CE18 /* Main.storyboard */; };
 		DC12C8F8192407DB0015CE18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC12C8F7192407DB0015CE18 /* ViewController.m */; };
-		DC12C8FA192407DB0015CE18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC12C8F9192407DB0015CE18 /* Images.xcassets */; };
 		DC12C901192407DB0015CE18 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC12C900192407DB0015CE18 /* XCTest.framework */; };
 		DC12C902192407DB0015CE18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC12C8E1192407DB0015CE18 /* Foundation.framework */; };
 		DC12C903192407DB0015CE18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC12C8E5192407DB0015CE18 /* UIKit.framework */; };
 		DC12C90B192407DB0015CE18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC12C909192407DB0015CE18 /* InfoPlist.strings */; };
 		DC12C90D192407DB0015CE18 /* ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC12C90C192407DB0015CE18 /* ExampleTests.m */; };
+		DC12C9181924D4020015CE18 /* UIButton+tintImage.m in Sources */ = {isa = PBXBuildFile; fileRef = DC12C9171924D4020015CE18 /* UIButton+tintImage.m */; };
+		DC12C91A1924DB100015CE18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC12C9191924DB100015CE18 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,12 +48,14 @@
 		DC12C8F4192407DB0015CE18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC12C8F6192407DB0015CE18 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DC12C8F7192407DB0015CE18 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DC12C8F9192407DB0015CE18 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DC12C8FF192407DB0015CE18 /* ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC12C900192407DB0015CE18 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		DC12C908192407DB0015CE18 /* ExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExampleTests-Info.plist"; sourceTree = "<group>"; };
 		DC12C90A192407DB0015CE18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DC12C90C192407DB0015CE18 /* ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleTests.m; sourceTree = "<group>"; };
+		DC12C9161924D4020015CE18 /* UIButton+tintImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+tintImage.h"; path = "../../UIButton+tintImage.h"; sourceTree = "<group>"; };
+		DC12C9171924D4020015CE18 /* UIButton+tintImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+tintImage.m"; path = "../../UIButton+tintImage.m"; sourceTree = "<group>"; };
+		DC12C9191924DB100015CE18 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +120,9 @@
 				DC12C8F3192407DB0015CE18 /* Main.storyboard */,
 				DC12C8F6192407DB0015CE18 /* ViewController.h */,
 				DC12C8F7192407DB0015CE18 /* ViewController.m */,
-				DC12C8F9192407DB0015CE18 /* Images.xcassets */,
+				DC12C9161924D4020015CE18 /* UIButton+tintImage.h */,
+				DC12C9171924D4020015CE18 /* UIButton+tintImage.m */,
+				DC12C9191924DB100015CE18 /* Images.xcassets */,
 				DC12C8E8192407DB0015CE18 /* Supporting Files */,
 			);
 			path = Example;
@@ -227,7 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC12C8FA192407DB0015CE18 /* Images.xcassets in Resources */,
+				DC12C91A1924DB100015CE18 /* Images.xcassets in Resources */,
 				DC12C8EC192407DB0015CE18 /* InfoPlist.strings in Resources */,
 				DC12C8F5192407DB0015CE18 /* Main.storyboard in Resources */,
 			);
@@ -250,6 +255,7 @@
 			files = (
 				DC12C8F8192407DB0015CE18 /* ViewController.m in Sources */,
 				DC12C8F2192407DB0015CE18 /* AppDelegate.m in Sources */,
+				DC12C9181924D4020015CE18 /* UIButton+tintImage.m in Sources */,
 				DC12C8EE192407DB0015CE18 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -455,6 +461,7 @@
 				DC12C912192407DB0015CE18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC12C913192407DB0015CE18 /* Build configuration list for PBXNativeTarget "ExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -463,6 +470,7 @@
 				DC12C915192407DB0015CE18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
