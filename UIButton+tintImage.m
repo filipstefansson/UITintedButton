@@ -14,10 +14,11 @@
 
 -(void)setImageTintColor:(UIColor *)color forState:(UIControlState)state
 {
-    UIImage *image = [self imageForState:state];
-    
-    if(image)
-        [self setImage:[self tintedImageWithColor:color image:image] forState:state];
+    if (self.imageView.image){
+        UIImage *tintedImage = [self imageForState:state];
+        tintedImage = [self tintedImageWithColor:color image:tintedImage];
+        [self setImage:tintedImage forState:state];
+    }
     else
         NSLog(@"%@ UIButton does not have any image to tint.", self);
 }
