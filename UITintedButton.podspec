@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   spec.name             = 'UITintedButton'
   spec.version          = '1.0'
-  spec.license          =  { :type => 'BSD' }
+  spec.license          =  { :type => 'Apache' }
   spec.homepage         = 'https://github.com/filipstefansson/UITintedButton'
   spec.authors          = { 'Filip Stefansson' => 'filip.stefansson@gmail.com' }
   spec.summary          = 'Category for UIButton to tint the image or background.'
@@ -9,4 +9,5 @@ Pod::Spec.new do |spec|
   spec.source_files     = 'UIButton+tintImage.{h,m}'
   spec.requires_arc     = true
   spec.platform         = :ios
+    s.screenshots       = "https://dl.dropboxusercontent.com/u/958499/uitintedbutton.png"
 end

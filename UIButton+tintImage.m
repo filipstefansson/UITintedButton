@@ -1,6 +1,6 @@
 //
 //  UIButton+tintImage.m
-//  Jumbler
+//  UITintedButton
 //
 //  Created by Filip Stefansson on 13-10-20.
 //  Copyright (c) 2013 Pixby Media AB. All rights reserved.
@@ -76,6 +76,5 @@
     UIGraphicsEndImageContext();
     return coloredImage;
 }
-
 
 @end

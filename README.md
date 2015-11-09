@@ -3,7 +3,7 @@ UITintedButton
 
 Ever wanted to tint a UIButton like you do with a UIBarButtonItem or a UINavigationItem? Here you go!
 
-![Screenshot](https://raw.githubusercontent.com/filipstefansson/UITintedButton/master/screenshot.png)
+![Screenshot](https://dl.dropboxusercontent.com/u/958499/screenshot.png?dl=0)
 
 This category adds two instance methods and two class methods to UIButton:
 
@@ -24,7 +24,7 @@ This category adds two instance methods and two class methods to UIButton:
 Drag ```UIButton+tintImage.h``` and ```UIButton+tintImage.m```.
 
 ## Usage
-
+```objective-c
 	#import UIButton+tintImage.h
 	
 	// Tint single buttons
@@ -34,3 +34,4 @@ Drag ```UIButton+tintImage.h``` and ```UIButton+tintImage.m```.
     // Tint multiple buttons
     [UIButton tintButtonImages:@[button1, button2, button3] withColor:[UIColor redColor] forState:UIControlStateNormal];
     [UIButton tintButtonBackgrounds:@[button1, button2, button3] withColor:[UIColor redColor] forState:UIControlStateNormal];
+```
