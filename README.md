@@ -3,7 +3,7 @@ UITintedButton
 
 Ever wanted to tint a UIButton like you do with a UIBarButtonItem or a UINavigationItem? Here you go!
 
-![Screenshot](https://dl.dropboxusercontent.com/u/958499/screenshot.png?dl=0)
+![Screenshot](https://dl.dropboxusercontent.com/u/958499/uitintedbutton.png?dl=0)
 
 This category adds two instance methods and two class methods to UIButton:
 

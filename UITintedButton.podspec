@@ -9,5 +9,5 @@ Pod::Spec.new do |spec|
   spec.source_files     = 'UIButton+tintImage.{h,m}'
   spec.requires_arc     = true
   spec.platform         = :ios
-    s.screenshots       = "https://dl.dropboxusercontent.com/u/958499/uitintedbutton.png"
+    s.screenshots       = "https://dl.dropboxusercontent.com/u/958499/uitintedbutton.png?dl=0"
 end
