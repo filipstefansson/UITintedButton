@@ -27,7 +27,7 @@ Drag ```UIButton+tintImage.h``` and ```UIButton+tintImage.m```.
 
 ## Usage
 ```objective-c
-#import UIButton+tintImage.h
+# import UIButton+tintImage.h
 
 // Tint single buttons
 [button setImageTintColor:[UIColor redColor] forState:UIControlStateNormal];
